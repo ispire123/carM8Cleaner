@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C42C7CC1C9FB61D0074D054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C42C7CB1C9FB61D0074D054 /* main.m */; };
+		1C42C7CF1C9FB61D0074D054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C42C7CE1C9FB61D0074D054 /* AppDelegate.m */; };
+		1C42C7D21C9FB61D0074D054 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C42C7D11C9FB61D0074D054 /* ViewController.m */; };
+		1C42C7D51C9FB61D0074D054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C42C7D31C9FB61D0074D054 /* Main.storyboard */; };
+		1C42C7D71C9FB61D0074D054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C42C7D61C9FB61D0074D054 /* Assets.xcassets */; };
+		1C42C7DA1C9FB61D0074D054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C42C7D81C9FB61D0074D054 /* LaunchScreen.storyboard */; };
+		1C42C7E51C9FB61E0074D054 /* AutoM8_CleanerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C42C7E41C9FB61E0074D054 /* AutoM8_CleanerTests.m */; };
+		1C42C7F01C9FB61E0074D054 /* AutoM8_CleanerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C42C7EF1C9FB61E0074D054 /* AutoM8_CleanerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C42C7E11C9FB61E0074D054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C42C7BF1C9FB61D0074D054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C42C7C61C9FB61D0074D054;
+			remoteInfo = "AutoM8-Cleaner";
+		};
+		1C42C7EC1C9FB61E0074D054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C42C7BF1C9FB61D0074D054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C42C7C61C9FB61D0074D054;
+			remoteInfo = "AutoM8-Cleaner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C42C7C71C9FB61D0074D054 /* AutoM8-Cleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoM8-Cleaner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C42C7CB1C9FB61D0074D054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C42C7CD1C9FB61D0074D054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C42C7CE1C9FB61D0074D054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C42C7D01C9FB61D0074D054 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C42C7D11C9FB61D0074D054 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C42C7D41C9FB61D0074D054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C42C7D61C9FB61D0074D054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C42C7D91C9FB61D0074D054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C42C7DB1C9FB61D0074D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C42C7E01C9FB61E0074D054 /* AutoM8-CleanerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoM8-CleanerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C42C7E41C9FB61E0074D054 /* AutoM8_CleanerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoM8_CleanerTests.m; sourceTree = "<group>"; };
+		1C42C7E61C9FB61E0074D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C42C7EB1C9FB61E0074D054 /* AutoM8-CleanerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoM8-CleanerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C42C7EF1C9FB61E0074D054 /* AutoM8_CleanerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoM8_CleanerUITests.m; sourceTree = "<group>"; };
+		1C42C7F11C9FB61E0074D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C42C7C41C9FB61D0074D054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C42C7DD1C9FB61E0074D054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C42C7E81C9FB61E0074D054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C42C7BE1C9FB61D0074D054 = {
+			isa = PBXGroup;
+			children = (
+				1C42C7C91C9FB61D0074D054 /* AutoM8-Cleaner */,
+				1C42C7E31C9FB61E0074D054 /* AutoM8-CleanerTests */,
+				1C42C7EE1C9FB61E0074D054 /* AutoM8-CleanerUITests */,
+				1C42C7C81C9FB61D0074D054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C42C7C81C9FB61D0074D054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C42C7C71C9FB61D0074D054 /* AutoM8-Cleaner.app */,
+				1C42C7E01C9FB61E0074D054 /* AutoM8-CleanerTests.xctest */,
+				1C42C7EB1C9FB61E0074D054 /* AutoM8-CleanerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C42C7C91C9FB61D0074D054 /* AutoM8-Cleaner */ = {
+			isa = PBXGroup;
+			children = (
+				1C42C7CD1C9FB61D0074D054 /* AppDelegate.h */,
+				1C42C7CE1C9FB61D0074D054 /* AppDelegate.m */,
+				1C42C7D01C9FB61D0074D054 /* ViewController.h */,
+				1C42C7D11C9FB61D0074D054 /* ViewController.m */,
+				1C42C7D31C9FB61D0074D054 /* Main.storyboard */,
+				1C42C7D61C9FB61D0074D054 /* Assets.xcassets */,
+				1C42C7D81C9FB61D0074D054 /* LaunchScreen.storyboard */,
+				1C42C7DB1C9FB61D0074D054 /* Info.plist */,
+				1C42C7CA1C9FB61D0074D054 /* Supporting Files */,
+			);
+			path = "AutoM8-Cleaner";
+			sourceTree = "<group>";
+		};
+		1C42C7CA1C9FB61D0074D054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C42C7CB1C9FB61D0074D054 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C42C7E31C9FB61E0074D054 /* AutoM8-CleanerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C42C7E41C9FB61E0074D054 /* AutoM8_CleanerTests.m */,
+				1C42C7E61C9FB61E0074D054 /* Info.plist */,
+			);
+			path = "AutoM8-CleanerTests";
+			sourceTree = "<group>";
+		};
+		1C42C7EE1C9FB61E0074D054 /* AutoM8-CleanerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C42C7EF1C9FB61E0074D054 /* AutoM8_CleanerUITests.m */,
+				1C42C7F11C9FB61E0074D054 /* Info.plist */,
+			);
+			path = "AutoM8-CleanerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C42C7C61C9FB61D0074D054 /* AutoM8-Cleaner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C42C7F41C9FB61E0074D054 /* Build configuration list for PBXNativeTarget "AutoM8-Cleaner" */;
+			buildPhases = (
+				1C42C7C31C9FB61D0074D054 /* Sources */,
+				1C42C7C41C9FB61D0074D054 /* Frameworks */,
+				1C42C7C51C9FB61D0074D054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoM8-Cleaner";
+			productName = "AutoM8-Cleaner";
+			productReference = 1C42C7C71C9FB61D0074D054 /* AutoM8-Cleaner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C42C7DF1C9FB61E0074D054 /* AutoM8-CleanerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C42C7F71C9FB61E0074D054 /* Build configuration list for PBXNativeTarget "AutoM8-CleanerTests" */;
+			buildPhases = (
+				1C42C7DC1C9FB61E0074D054 /* Sources */,
+				1C42C7DD1C9FB61E0074D054 /* Frameworks */,
+				1C42C7DE1C9FB61E0074D054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C42C7E21C9FB61E0074D054 /* PBXTargetDependency */,
+			);
+			name = "AutoM8-CleanerTests";
+			productName = "AutoM8-CleanerTests";
+			productReference = 1C42C7E01C9FB61E0074D054 /* AutoM8-CleanerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C42C7EA1C9FB61E0074D054 /* AutoM8-CleanerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C42C7FA1C9FB61E0074D054 /* Build configuration list for PBXNativeTarget "AutoM8-CleanerUITests" */;
+			buildPhases = (
+				1C42C7E71C9FB61E0074D054 /* Sources */,
+				1C42C7E81C9FB61E0074D054 /* Frameworks */,
+				1C42C7E91C9FB61E0074D054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C42C7ED1C9FB61E0074D054 /* PBXTargetDependency */,
+			);
+			name = "AutoM8-CleanerUITests";
+			productName = "AutoM8-CleanerUITests";
+			productReference = 1C42C7EB1C9FB61E0074D054 /* AutoM8-CleanerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C42C7BF1C9FB61D0074D054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JoyTestapp;
+				TargetAttributes = {
+					1C42C7C61C9FB61D0074D054 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1C42C7DF1C9FB61E0074D054 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1C42C7C61C9FB61D0074D054;
+					};
+					1C42C7EA1C9FB61E0074D054 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1C42C7C61C9FB61D0074D054;
+					};
+				};
+			};
+			buildConfigurationList = 1C42C7C21C9FB61D0074D054 /* Build configuration list for PBXProject "AutoM8-Cleaner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C42C7BE1C9FB61D0074D054;
+			productRefGroup = 1C42C7C81C9FB61D0074D054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C42C7C61C9FB61D0074D054 /* AutoM8-Cleaner */,
+				1C42C7DF1C9FB61E0074D054 /* AutoM8-CleanerTests */,
+				1C42C7EA1C9FB61E0074D054 /* AutoM8-CleanerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C42C7C51C9FB61D0074D054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C42C7DA1C9FB61D0074D054 /* LaunchScreen.storyboard in Resources */,
+				1C42C7D71C9FB61D0074D054 /* Assets.xcassets in Resources */,
+				1C42C7D51C9FB61D0074D054 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C42C7DE1C9FB61E0074D054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C42C7E91C9FB61E0074D054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C42C7C31C9FB61D0074D054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C42C7D21C9FB61D0074D054 /* ViewController.m in Sources */,
+				1C42C7CF1C9FB61D0074D054 /* AppDelegate.m in Sources */,
+				1C42C7CC1C9FB61D0074D054 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C42C7DC1C9FB61E0074D054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C42C7E51C9FB61E0074D054 /* AutoM8_CleanerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C42C7E71C9FB61E0074D054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C42C7F01C9FB61E0074D054 /* AutoM8_CleanerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C42C7E21C9FB61E0074D054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C42C7C61C9FB61D0074D054 /* AutoM8-Cleaner */;
+			targetProxy = 1C42C7E11C9FB61E0074D054 /* PBXContainerItemProxy */;
+		};
+		1C42C7ED1C9FB61E0074D054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C42C7C61C9FB61D0074D054 /* AutoM8-Cleaner */;
+			targetProxy = 1C42C7EC1C9FB61E0074D054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C42C7D31C9FB61D0074D054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C42C7D41C9FB61D0074D054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C42C7D81C9FB61D0074D054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C42C7D91C9FB61D0074D054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C42C7F21C9FB61E0074D054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C42C7F31C9FB61E0074D054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C42C7F51C9FB61E0074D054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AutoM8-Cleaner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IspireSolutions.AutoM8-Cleaner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C42C7F61C9FB61E0074D054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AutoM8-Cleaner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IspireSolutions.AutoM8-Cleaner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C42C7F81C9FB61E0074D054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AutoM8-CleanerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IspireSolutions.AutoM8-CleanerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoM8-Cleaner.app/AutoM8-Cleaner";
+			};
+			name = Debug;
+		};
+		1C42C7F91C9FB61E0074D054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AutoM8-CleanerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IspireSolutions.AutoM8-CleanerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoM8-Cleaner.app/AutoM8-Cleaner";
+			};
+			name = Release;
+		};
+		1C42C7FB1C9FB61E0074D054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AutoM8-CleanerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IspireSolutions.AutoM8-CleanerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AutoM8-Cleaner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1C42C7FC1C9FB61E0074D054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AutoM8-CleanerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IspireSolutions.AutoM8-CleanerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AutoM8-Cleaner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C42C7C21C9FB61D0074D054 /* Build configuration list for PBXProject "AutoM8-Cleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C42C7F21C9FB61E0074D054 /* Debug */,
+				1C42C7F31C9FB61E0074D054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C42C7F41C9FB61E0074D054 /* Build configuration list for PBXNativeTarget "AutoM8-Cleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C42C7F51C9FB61E0074D054 /* Debug */,
+				1C42C7F61C9FB61E0074D054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C42C7F71C9FB61E0074D054 /* Build configuration list for PBXNativeTarget "AutoM8-CleanerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C42C7F81C9FB61E0074D054 /* Debug */,
+				1C42C7F91C9FB61E0074D054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C42C7FA1C9FB61E0074D054 /* Build configuration list for PBXNativeTarget "AutoM8-CleanerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C42C7FB1C9FB61E0074D054 /* Debug */,
+				1C42C7FC1C9FB61E0074D054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C42C7BF1C9FB61D0074D054 /* Project object */;
+}
