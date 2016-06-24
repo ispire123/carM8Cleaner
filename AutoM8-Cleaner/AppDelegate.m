@@ -29,9 +29,13 @@
     // [Optional] Track statistics around application opens.
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 
-   [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x33da83)];
+   [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x3383da)];
     
-    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0x33da83)];
+    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0x3383da)];
+    
+    [[UIButton appearance] setBackgroundColor:UIColorFromRGB(0x3383da)];
+    
+    [[UIButton appearance] setTintColor:UIColorFromRGB(0xffffff)];
     
     NSShadow *shadow = [[NSShadow alloc] init];
     shadow.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8];

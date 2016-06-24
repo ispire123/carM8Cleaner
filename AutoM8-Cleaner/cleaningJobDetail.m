@@ -71,6 +71,15 @@
                                   [temp saveInBackground];
                               }
                               
+                                  PFQuery *query1 = [PFQuery queryWithClassName:@"cleaningService"];
+                                  [query1 getObjectInBackgroundWithId:cleaningIDtxt block:^(PFObject *cleanobject, NSError *error) {
+                                      if (!error) {
+                                          cleanobject[@"status"] = @"completed";
+                                          [cleanobject saveInBackground];
+                                      }
+                                  }];
+                              
+                              
                               
                               [completejob dismissViewControllerAnimated:YES completion:nil];
                               

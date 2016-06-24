@@ -61,7 +61,7 @@
     
     [query getObjectInBackgroundWithId:cleaningID block:^(PFObject *cleanobject, NSError *error) {
         if (!error) {
-            cleanobject[@"status"] = [NSNumber numberWithBool:true];
+            cleanobject[@"status"] = @"accepted";
             [cleanobject saveInBackground];
         }
     }];

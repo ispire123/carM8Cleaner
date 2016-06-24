@@ -34,7 +34,8 @@
     regClean.password = _txtpassword.text;
     regClean.email = _txtemail.text;
     regClean[@"userType"] = @"cleaner";
-    regClean[@"fullName"] = _txtname.text;
+    regClean[@"firstName"] = _txtFirstname.text;
+    regClean[@"lastName"] = _txtLastname.text;
     regClean[@"phone"] = _txtphone.text;
     
     [regClean signUpInBackgroundWithBlock:^(BOOL success, NSError *error){
@@ -74,7 +75,8 @@
     
     PFObject *cleanerMaster = [PFObject objectWithClassName:@"cleaner"]; //object for the class "cleaner" is created
     
-    cleanerMaster[@"name"] = _txtname.text;
+    cleanerMaster[@"firstName"] = _txtFirstname.text;
+    cleanerMaster[@"lastName"] = _txtLastname.text;
     cleanerMaster[@"email"] = _txtemail.text;
     cleanerMaster[@"ABN"] = _txtbusinessABN.text;
     cleanerMaster[@"businessName"] = _txtbusinessName.text;

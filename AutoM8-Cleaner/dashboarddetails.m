@@ -39,7 +39,7 @@
     
     // Do any additional setup after loading the view.
     
-    NSString *currentUser = [[PFUser currentUser] objectForKey:@"fullName"];
+    NSString *currentUser = [[PFUser currentUser] objectForKey:@"firstName"];
     NSLog(@"Name: %@", currentUser);
     _txtWelcome.text = [@"Hello " stringByAppendingString:currentUser];
     _txtWelcome.font = [UIFont fontWithName:@"Futura Medium" size:18.0];
@@ -203,7 +203,7 @@
         
         PFObject *tempfromParse = [query5 getObjectWithId:customerobject];
         
-        NSString *name = [tempfromParse objectForKey:@"fullName"];
+        NSString *name = [tempfromParse objectForKey:@"firstName"];
         NSString *phone = [tempfromParse objectForKey:@"phone"];
         
         [nameList addObject:name];

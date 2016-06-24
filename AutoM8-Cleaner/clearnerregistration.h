@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface clearnerregistration : UIViewController
-@property (strong, nonatomic) IBOutlet UITextField *txtname;
+@property (strong, nonatomic) IBOutlet UITextField *txtFirstname;
+@property (strong, nonatomic) IBOutlet UITextField *txtLastname;
 @property (strong, nonatomic) IBOutlet UITextField *txtphone;
 @property (strong, nonatomic) IBOutlet UITextField *txtemail;
 @property (strong, nonatomic) IBOutlet UITextField *txtconfirmEmail;
